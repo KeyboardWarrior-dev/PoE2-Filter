@@ -1,8 +1,48 @@
-#=================================================
+f#=================================================
 # RetroCro's Barebone PoE2 Loot Filter
 # Discord: #retrocro
 # Latest Version - https://github.com/RetroCro/PoE2-Filter
 #=================================================
+
+### Custom Override
+
+# Useless Weapon types
+#Hide
+#	Rarity Normal Magic Rare
+#	Class == "One Hand Maces" "Staves"
+
+# Useless Bases
+#Hide
+#	Rarity Normal Magic Rare
+#	BaseType == "Cultist Bow" "Withered Wand" "Frigid Wand" "Torture Wand" "Critical Wand" "Dueling Wand" "Bone Wand" "Volatile Wand" "Offering Wand" "Primordial Wand"
+
+
+
+
+Show
+	SetBorderColor 200 0 0
+	SetFontSize 38
+	#ItemLevel >= 68
+	Rarity Normal Magic Rare
+	Class "Body Armour"
+	BaseEnergyShield >= 20
+	BaseEvasion >= 20
+	MinimapIcon 1 Red Moon
+	
+
+Show
+	SetBorderColor 200 0 0
+	SetFontSize 38
+	#ItemLevel >= 68
+	Rarity Normal Magic Rare
+	BaseType = "Slicing Quarterstaff" "Gothic Quarterstaff" "Crescent Quarterstaff" "Long Quarterstaff" "Barrier Quarterstaff"
+	MinimapIcon 1 Red Moon
+
+
+
+
+
+
 
 #--------------------------
 # Show Quest Items
