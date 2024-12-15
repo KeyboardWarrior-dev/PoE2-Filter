@@ -370,7 +370,6 @@ Show # GOLDsmall
 	SetTextColor 180 180 180 255
 	SetBorderColor 0 0 0 255
 	SetBackgroundColor 20 20 0 180
-	MinimapIcon 2 Grey Circle
 	
 #--------------------------
 # Tablets
@@ -667,7 +666,7 @@ MinimapIcon 2 Purple Circle
 
 Show # Good Bases ilvl 75 - Rare
   Rarity Rare
-  BaseType == "Expert Spined Bracers" "Expert Spiral Wraps" "Expert Intricate Gloves" "Expert Hunting Shoes" "Expert Lizardscale Boots" "Expert Feathered Sandals" "Expert Waxed Jacket" "Expert Studded Vest" "Expert Hexer's Robe" "Expert Tribal Mask" "Expert Hunter Hood" "Expert Feathered Tiara" "Expert Omen Crest Shield" "Expert Plumed Focus" "Gold Ring" "Gold Amulet" "Solar Amulet" "Expert Barrier Quarterstaff" "Expert Slicing Quarterstaff" "Expert Gothic Quarterstaff" "Heavy Belt"
+  BaseType == "Expert Spined Bracers" "Expert Spiral Wraps" "Expert Intricate Gloves" "Expert Hunting Shoes" "Expert Lizardscale Boots" "Expert Feathered Sandals" "Expert Waxed Jacket" "Expert Studded Vest" "Expert Hexer's Robe" "Expert Tribal Mask" "Expert Hunter Hood" "Expert Feathered Tiara" "Expert Omen Crest Shield" "Expert Plumed Focus" "Gold Ring" "Gold Amulet" "Solar Amulet" "Expert Barrier Quarterstaff" "Expert Slicing Quarterstaff" "Expert Gothic Quarterstaff" "Heavy Belt" "Azure Amulet"
   AreaLevel >= 75
   SetTextColor 254 128 222
   SetBorderColor 255 255 119
@@ -679,7 +678,7 @@ Show # Good Bases ilvl 75 - Rare
 
 Show # Good  Bases ilvl 75 - Magic
   Rarity Magic
-  BaseType == "Expert Spined Bracers" "Expert Spiral Wraps" "Expert Intricate Gloves" "Expert Hunting Shoes" "Expert Lizardscale Boots" "Expert Feathered Sandals" "Expert Waxed Jacket" "Expert Studded Vest" "Expert Hexer's Robe" "Expert Tribal Mask" "Expert Hunter Hood" "Expert Feathered Tiara" "Expert Omen Crest Shield" "Expert Plumed Focus" "Gold Ring" "Gold Amulet" "Solar Amulet" "Expert Barrier Quarterstaff" "Expert Slicing Quarterstaff" "Expert Gothic Quarterstaff" "Heavy Belt"
+  BaseType == "Expert Spined Bracers" "Expert Spiral Wraps" "Expert Intricate Gloves" "Expert Hunting Shoes" "Expert Lizardscale Boots" "Expert Feathered Sandals" "Expert Waxed Jacket" "Expert Studded Vest" "Expert Hexer's Robe" "Expert Tribal Mask" "Expert Hunter Hood" "Expert Feathered Tiara" "Expert Omen Crest Shield" "Expert Plumed Focus" "Gold Ring" "Gold Amulet" "Solar Amulet" "Expert Barrier Quarterstaff" "Expert Slicing Quarterstaff" "Expert Gothic Quarterstaff" "Heavy Belt" "Azure Amulet"
   AreaLevel >= 75
   SetTextColor 254 128 222
   SetBorderColor  136 136 255
@@ -691,7 +690,7 @@ Show # Good  Bases ilvl 75 - Magic
 
 Show # Good Bases ilvl 75 - Normal
   Rarity Normal
-  BaseType == "Expert Spined Bracers" "Expert Spiral Wraps" "Expert Intricate Gloves" "Expert Hunting Shoes" "Expert Lizardscale Boots" "Expert Feathered Sandals" "Expert Waxed Jacket" "Expert Studded Vest" "Expert Hexer's Robe" "Expert Tribal Mask" "Expert Hunter Hood" "Expert Feathered Tiara" "Expert Omen Crest Shield" "Expert Plumed Focus" "Gold Ring" "Gold Amulet" "Solar Amulet" "Expert Barrier Quarterstaff" "Expert Slicing Quarterstaff" "Expert Gothic Quarterstaff" "Heavy Belt"
+  BaseType == "Expert Spined Bracers" "Expert Spiral Wraps" "Expert Intricate Gloves" "Expert Hunting Shoes" "Expert Lizardscale Boots" "Expert Feathered Sandals" "Expert Waxed Jacket" "Expert Studded Vest" "Expert Hexer's Robe" "Expert Tribal Mask" "Expert Hunter Hood" "Expert Feathered Tiara" "Expert Omen Crest Shield" "Expert Plumed Focus" "Gold Ring" "Gold Amulet" "Solar Amulet" "Expert Barrier Quarterstaff" "Expert Slicing Quarterstaff" "Expert Gothic Quarterstaff" "Heavy Belt" "Azure Amulet"
   AreaLevel >= 75
   SetTextColor 254 128 222
   SetBorderColor 0 0 0
@@ -707,7 +706,7 @@ Show # Good Bases ilvl 75 - Normal
 	
 Show # Good Bases - Rare
   Rarity Rare
-  BaseType == "Expert Spined Bracers" "Expert Spiral Wraps" "Expert Intricate Gloves" "Expert Hunting Shoes" "Expert Lizardscale Boots" "Expert Feathered Sandals" "Expert Waxed Jacket" "Expert Studded Vest" "Expert Hexer's Robe" "Expert Tribal Mask" "Expert Hunter Hood" "Expert Feathered Tiara" "Expert Omen Crest Shield" "Expert Plumed Focus" "Gold Ring" "Gold Amulet" "Solar Amulet" "Expert Barrier Quarterstaff" "Expert Slicing Quarterstaff" "Expert Gothic Quarterstaff" "Heavy Belt" "Rusted Greathelm"
+  BaseType == "Expert Spined Bracers" "Expert Spiral Wraps" "Expert Intricate Gloves" "Expert Hunting Shoes" "Expert Lizardscale Boots" "Expert Feathered Sandals" "Expert Waxed Jacket" "Expert Studded Vest" "Expert Hexer's Robe" "Expert Tribal Mask" "Expert Hunter Hood" "Expert Feathered Tiara" "Expert Omen Crest Shield" "Expert Plumed Focus" "Gold Ring" "Gold Amulet" "Solar Amulet" "Expert Barrier Quarterstaff" "Expert Slicing Quarterstaff" "Expert Gothic Quarterstaff" "Heavy Belt"  "Azure Amulet"
   SetTextColor 254 128 222
   SetBorderColor 255 255 119
   SetBackgroundColor 30 30 30
@@ -715,7 +714,7 @@ Show # Good Bases - Rare
 
 Show # Good  Bases - Magic
   Rarity Magic
-  BaseType == "Expert Spined Bracers" "Expert Spiral Wraps" "Expert Intricate Gloves" "Expert Hunting Shoes" "Expert Lizardscale Boots" "Expert Feathered Sandals" "Expert Waxed Jacket" "Expert Studded Vest" "Expert Hexer's Robe" "Expert Tribal Mask" "Expert Hunter Hood" "Expert Feathered Tiara" "Expert Omen Crest Shield" "Expert Plumed Focus" "Gold Ring" "Gold Amulet" "Solar Amulet" "Expert Barrier Quarterstaff" "Expert Slicing Quarterstaff" "Expert Gothic Quarterstaff" "Heavy Belt"
+  BaseType == "Expert Spined Bracers" "Expert Spiral Wraps" "Expert Intricate Gloves" "Expert Hunting Shoes" "Expert Lizardscale Boots" "Expert Feathered Sandals" "Expert Waxed Jacket" "Expert Studded Vest" "Expert Hexer's Robe" "Expert Tribal Mask" "Expert Hunter Hood" "Expert Feathered Tiara" "Expert Omen Crest Shield" "Expert Plumed Focus" "Gold Ring" "Gold Amulet" "Solar Amulet" "Expert Barrier Quarterstaff" "Expert Slicing Quarterstaff" "Expert Gothic Quarterstaff" "Heavy Belt" "Azure Amulet"
   SetTextColor 254 128 222
   SetBorderColor  136 136 255
   SetBackgroundColor 30 30 30
@@ -724,7 +723,7 @@ Show # Good  Bases - Magic
 
 Show # Good Bases - Normal
   Rarity Normal
-  BaseType == "Expert Spined Bracers" "Expert Spiral Wraps" "Expert Intricate Gloves" "Expert Hunting Shoes" "Expert Lizardscale Boots" "Expert Feathered Sandals" "Expert Waxed Jacket" "Expert Studded Vest" "Expert Hexer's Robe" "Expert Tribal Mask" "Expert Hunter Hood" "Expert Feathered Tiara" "Expert Omen Crest Shield" "Expert Plumed Focus" "Gold Ring" "Gold Amulet" "Solar Amulet" "Expert Barrier Quarterstaff" "Expert Slicing Quarterstaff" "Expert Gothic Quarterstaff" "Heavy Belt"
+  BaseType == "Expert Spined Bracers" "Expert Spiral Wraps" "Expert Intricate Gloves" "Expert Hunting Shoes" "Expert Lizardscale Boots" "Expert Feathered Sandals" "Expert Waxed Jacket" "Expert Studded Vest" "Expert Hexer's Robe" "Expert Tribal Mask" "Expert Hunter Hood" "Expert Feathered Tiara" "Expert Omen Crest Shield" "Expert Plumed Focus" "Gold Ring" "Gold Amulet" "Solar Amulet" "Expert Barrier Quarterstaff" "Expert Slicing Quarterstaff" "Expert Gothic Quarterstaff" "Heavy Belt" "Azure Amulet"
   SetTextColor 254 128 222
   SetBorderColor 0 0 0
   SetBackgroundColor 30 30 30
@@ -774,6 +773,12 @@ Hide # Low Flasks
   BaseType == "Lesser Life Flask" "Medium Life Flask" "Greater Life Flask" "Grand Life Flask" "Giant Life Flask" "Colossal Life Flask" "Gargantuan Life Flask" "Lesser Mana Flask" "Medium Mana Flask" "Greater Mana Flask" "Grand Mana Flask" "Giant Mana Flask" "Colossal Mana Flask" "Gargantuan Mana Flask"
 	Rarity <= Rare
 	AreaLevel >= 65
+	
+Hide # Non Superior Flasks
+  Class == "Life Flasks" "Mana Flasks"
+	Rarity <= Rare
+	AreaLevel >= 65
+	Quality < 1
 	
 #--------------------------
 # Hide Non Rare in maps
