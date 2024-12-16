@@ -6,38 +6,56 @@
 
 ### Custom Override
 
-# Useless Weapon types
-#Hide
-#	Rarity Normal Magic Rare
-#	Class == "One Hand Maces" "Staves"
-
-# Useless Bases
-#Hide
-#	Rarity Normal Magic Rare
-#	BaseType == "Cultist Bow" "Withered Wand" "Frigid Wand" "Torture Wand" "Critical Wand" "Dueling Wand" "Bone Wand" "Volatile Wand" "Offering Wand" "Primordial Wand"
-
-
-
-
-Show
-	SetBorderColor 200 0 0
-	SetFontSize 38
-	#ItemLevel >= 68
+Useless Weapon types
+Hide
 	Rarity Normal Magic Rare
-	Class "Body Armour"
-	BaseEnergyShield >= 20
-	BaseEvasion >= 20
-	MinimapIcon 1 Red Moon
-	
+	Class == "One Hand Maces" "Staves"
 
-Show
-	SetBorderColor 200 0 0
-	SetFontSize 38
-	#ItemLevel >= 68
+Useless Bases
+Hide
 	Rarity Normal Magic Rare
-	BaseType = "Slicing Quarterstaff" "Gothic Quarterstaff" "Crescent Quarterstaff" "Long Quarterstaff" "Barrier Quarterstaff"
-	MinimapIcon 1 Red Moon
+	BaseType == "Cultist Bow" "Withered Wand" "Frigid Wand" "Torture Wand" "Critical Wand" "Dueling Wand" "Bone Wand" "Volatile Wand" "Offering Wand" "Primordial Wand"
 
+
+
+
+# Show
+	# Rarity Rare
+	# Class "Body Armour"
+	# BaseEnergyShield >= 20
+	# BaseEvasion >= 20
+	# SetTextColor 254 128 222
+	# SetBorderColor 255 255 119
+	# SetBackgroundColor 30 30 30
+	# SetFontSize 45
+	# MinimapIcon 0 Pink Circle
+	# PlayAlertSound 2 300
+	# PlayEffect Pink
+
+# Show
+	# Rarity Rare
+	# Class "Body Armour"
+	# BaseEnergyShield = 0
+	# BaseEvasion >= 200
+	# BaseArmour = 0
+	# SetTextColor 254 128 222
+	# SetBorderColor 255 255 119
+	# SetBackgroundColor 30 30 30
+	# SetFontSize 45
+	# MinimapIcon 0 Pink Circle
+	# PlayAlertSound 2 300
+	# PlayEffect Pink
+
+# Show
+	# Rarity Rare
+	# BaseType = "Slicing Quarterstaff" "Gothic Quarterstaff" "Crescent Quarterstaff" "Long Quarterstaff" "Barrier Quarterstaff"
+	# SetTextColor 254 128 222
+	# SetBorderColor 255 255 119
+	# SetBackgroundColor 30 30 30
+	# SetFontSize 45
+	# MinimapIcon 0 Pink Circle
+	# PlayAlertSound 2 300
+	# PlayEffect Pink
 
 
 
