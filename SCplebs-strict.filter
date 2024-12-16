@@ -6,12 +6,12 @@
 
 ### Custom Override
 
-Useless Weapon types
+# Useless Weapon types
 Hide
 	Rarity Normal Magic Rare
 	Class == "One Hand Maces" "Staves"
 
-Useless Bases
+# Useless Bases
 Hide
 	Rarity Normal Magic Rare
 	BaseType == "Cultist Bow" "Withered Wand" "Frigid Wand" "Torture Wand" "Critical Wand" "Dueling Wand" "Bone Wand" "Volatile Wand" "Offering Wand" "Primordial Wand"
