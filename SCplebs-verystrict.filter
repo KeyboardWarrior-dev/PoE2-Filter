@@ -617,8 +617,7 @@ Show # ShardsHigh
 	
 Hide # ShardsLow
 	Class == "Stackable Currency"
-# "Artificer's Shard" "Alchemy Shard"  "Chaos Shard"
-  BaseType == "Alteration Shard" "Transmutation Shard"
+  BaseType == "Alteration Shard" "Transmutation Shard" "Artificer's Shard" "Alchemy Shard"  "Chaos Shard"
 	AreaLevel >= 70
 	SetFontSize 25
   SetTextColor 0 0 0 255
@@ -626,8 +625,7 @@ Hide # ShardsLow
   SetBackgroundColor 255 255 255 100
 	
 Hide # Low Tier
-# "Arcanist's Etcher" "Blacksmith's Whetstone" "Artificer's Orb" "Lesser Jeweller's Orb" 
-	BaseType == "Orb of Transmutation" "Orb of Augmentation"
+	BaseType == "Orb of Transmutation" "Orb of Augmentation" "Lesser Jeweller's Orb" 
 	AreaLevel >= 70
 	SetFontSize 30
   SetTextColor 0 0 0 255
