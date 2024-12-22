@@ -4,6 +4,15 @@
 # Latest Version - https://github.com/RetroCro/PoE2-Filter
 #=================================================
 
+### Custom Override
+
+# Useless Weapon types
+Hide
+	Rarity Normal Magic Rare
+	Class == "One Hand Maces" "Staves"
+
+
+
 #--------------------------
 # Show Quest Items
 #--------------------------
