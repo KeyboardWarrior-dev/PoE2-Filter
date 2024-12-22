@@ -652,7 +652,7 @@ Show # Uncut Skill Gem
 	PlayAlertSound 10 300
 	MinimapIcon 0 Green Circle
 
-Show # Uncut Skill Gem
+Hide # Uncut Skill Gem
 	BaseType == "Uncut Skill Gem"
 	ItemLevel >= 18
 	SetFontSize 30
@@ -692,7 +692,7 @@ Show # Uncut Spirit Gem
 	PlayAlertSound 10 300
 	MinimapIcon 0 Green Circle
 	
-Show # Uncut Spirit Gem
+Hide # Uncut Spirit Gem
 	BaseType == "Uncut Spirit Gem"
 	ItemLevel >= 18
 	SetFontSize 30
