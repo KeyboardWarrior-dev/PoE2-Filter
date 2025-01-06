@@ -118,6 +118,7 @@ Hide # Yellow Maps Rare
   SetTextColor 254 213 0
 	SetBorderColor 254 213 0
   SetBackgroundColor 255 215 0 125
+  PlayEffect Yellow Temp
 	
 Hide # Yellow Maps Magic
 	Class == "Waystones"
@@ -128,6 +129,7 @@ Hide # Yellow Maps Magic
   SetTextColor 0 0 254
 	SetBorderColor 0 0 254
   SetBackgroundColor 255 215 0 125
+  PlayEffect Yellow Temp
 	
 Hide # Yellow Maps Normal
 	Class == "Waystones"
@@ -138,7 +140,8 @@ Hide # Yellow Maps Normal
   SetTextColor 255 255 255
 	SetBorderColor 255 255 255
   SetBackgroundColor 255 215 0 125
-
+  PlayEffect Yellow Temp
+	
 #--------------------------
 # White Maps
 #--------------------------
@@ -671,8 +674,8 @@ Show # ShardsHigh
   SetTextColor 255 0 0 255
   SetBackgroundColor 0 0 0
   SetBorderColor 255 0 0 255
-	PlayEffect Grey
-  MinimapIcon 0 Grey Circle
+	PlayEffect Grey Temp
+  MinimapIcon 2 Grey Circle
 	
 Hide # ShardsLow
 	Class == "Stackable Currency"
@@ -882,6 +885,16 @@ Show # Expert Dualstring Bow
 Show # Expert Dualstring Bow
   Rarity Normal
   BaseType == "Expert Dualstring Bow" "Primed Quiver"
+  SetTextColor 180 180 180
+  SetBorderColor 255 215 0
+  SetBackgroundColor 30 30 30	
+  SetFontSize 35
+  MinimapIcon 2 Orange Diamond
+	PlayEffect Orange Temp
+	
+Show # Quivers Rare
+  Rarity Rare
+  BaseType == "Visceral Quiver" "Volant Quiver" "Penetrating Quiver"
   SetTextColor 180 180 180
   SetBorderColor 255 215 0
   SetBackgroundColor 30 30 30	
@@ -1153,7 +1166,7 @@ Hide # HYBRID Bases Normal
 
 Show # Good Bases ilvl 80 - Rare
   Rarity Rare
-  BaseType == "Expert Barrier Quarterstaff" "Expert Slicing Quarterstaff" "Expert Gothic Quarterstaff" "Expert Zealot Bow" "Expert Dualstring Bow" "Rattling Sceptre" "Lupine Sceptre" "Ochre Sceptre" "Clasped Sceptre" "Devouring Sceptre" "Devotional Sceptre" "Wrath Sceptre" "Aromatic Sceptre" "Pious Sceptre" "Hallowed Sceptre"
+  BaseType == "Expert Barrier Quarterstaff" "Expert Slicing Quarterstaff" "Expert Gothic Quarterstaff" "Expert Zealot Bow" "Expert Dualstring Bow" "Rattling Sceptre" "Lupine Sceptre" "Ochre Sceptre" "Clasped Sceptre" "Devouring Sceptre" "Devotional Sceptre" "Wrath Sceptre" "Aromatic Sceptre" "Pious Sceptre" "Hallowed Sceptre" "Omen Sceptre"
   AreaLevel >= 80
   SetTextColor 255 255 119
   SetBorderColor 254 128 222
@@ -1164,7 +1177,7 @@ Show # Good Bases ilvl 80 - Rare
 
 Hide # Good  Bases ilvl 80 - Magic
   Rarity Magic
-  BaseType == "Expert Barrier Quarterstaff" "Expert Slicing Quarterstaff" "Expert Gothic Quarterstaff" "Expert Zealot Bow" "Expert Dualstring Bow" "Rattling Sceptre" "Lupine Sceptre" "Ochre Sceptre" "Clasped Sceptre" "Devouring Sceptre" "Devotional Sceptre" "Wrath Sceptre" "Aromatic Sceptre" "Pious Sceptre" "Hallowed Sceptre"
+  BaseType == "Expert Barrier Quarterstaff" "Expert Slicing Quarterstaff" "Expert Gothic Quarterstaff" "Expert Zealot Bow" "Expert Dualstring Bow" "Rattling Sceptre" "Lupine Sceptre" "Ochre Sceptre" "Clasped Sceptre" "Devouring Sceptre" "Devotional Sceptre" "Wrath Sceptre" "Aromatic Sceptre" "Pious Sceptre" "Hallowed Sceptre" "Omen Sceptre"
   AreaLevel >= 80
   SetTextColor 0 75 250 255
   SetBorderColor 254 128 222
@@ -1174,7 +1187,7 @@ Hide # Good  Bases ilvl 80 - Magic
 
 Hide # Good Bases ilvl 80 - Normal
   Rarity Normal
-  BaseType == "Expert Barrier Quarterstaff" "Expert Slicing Quarterstaff" "Expert Gothic Quarterstaff" "Expert Zealot Bow" "Expert Dualstring Bow" "Rattling Sceptre" "Lupine Sceptre" "Ochre Sceptre" "Clasped Sceptre" "Devouring Sceptre" "Devotional Sceptre" "Wrath Sceptre" "Aromatic Sceptre" "Pious Sceptre" "Hallowed Sceptre"
+  BaseType == "Expert Barrier Quarterstaff" "Expert Slicing Quarterstaff" "Expert Gothic Quarterstaff" "Expert Zealot Bow" "Expert Dualstring Bow" "Rattling Sceptre" "Lupine Sceptre" "Ochre Sceptre" "Clasped Sceptre" "Devouring Sceptre" "Devotional Sceptre" "Wrath Sceptre" "Aromatic Sceptre" "Pious Sceptre" "Hallowed Sceptre" "Omen Sceptre"
   AreaLevel >= 80
   SetTextColor 180 180 180
   SetBorderColor 254 128 222
@@ -1188,7 +1201,7 @@ Hide # Good Bases ilvl 80 - Normal
 	
 Show # Good Bases - Rare
   Rarity Rare
-  BaseType == "Expert Barrier Quarterstaff" "Expert Slicing Quarterstaff" "Expert Gothic Quarterstaff" "Expert Zealot Bow" "Expert Dualstring Bow" "Rattling Sceptre" "Lupine Sceptre" "Ochre Sceptre" "Clasped Sceptre" "Devouring Sceptre" "Devotional Sceptre" "Wrath Sceptre" "Aromatic Sceptre" "Pious Sceptre" "Hallowed Sceptre"
+  BaseType == "Expert Barrier Quarterstaff" "Expert Slicing Quarterstaff" "Expert Gothic Quarterstaff" "Expert Zealot Bow" "Expert Dualstring Bow" "Rattling Sceptre" "Lupine Sceptre" "Ochre Sceptre" "Clasped Sceptre" "Devouring Sceptre" "Devotional Sceptre" "Wrath Sceptre" "Aromatic Sceptre" "Pious Sceptre" "Hallowed Sceptre" "Omen Sceptre"
   SetTextColor 255 255 119
   SetBorderColor 254 128 222
   SetBackgroundColor 30 30 30	
@@ -1197,7 +1210,7 @@ Show # Good Bases - Rare
 
 Hide # Good  Bases - Magic
   Rarity Magic
-  BaseType == "Expert Barrier Quarterstaff" "Expert Slicing Quarterstaff" "Expert Gothic Quarterstaff" "Expert Zealot Bow" "Expert Dualstring Bow" "Rattling Sceptre" "Lupine Sceptre" "Ochre Sceptre" "Clasped Sceptre" "Devouring Sceptre" "Devotional Sceptre" "Wrath Sceptre" "Aromatic Sceptre" "Pious Sceptre" "Hallowed Sceptre"
+  BaseType == "Expert Barrier Quarterstaff" "Expert Slicing Quarterstaff" "Expert Gothic Quarterstaff" "Expert Zealot Bow" "Expert Dualstring Bow" "Rattling Sceptre" "Lupine Sceptre" "Ochre Sceptre" "Clasped Sceptre" "Devouring Sceptre" "Devotional Sceptre" "Wrath Sceptre" "Aromatic Sceptre" "Pious Sceptre" "Hallowed Sceptre" "Omen Sceptre"
   SetTextColor 0 75 250 255
   SetBorderColor 254 128 222
   SetBackgroundColor 30 30 30
@@ -1207,7 +1220,7 @@ Hide # Good  Bases - Magic
 
 Hide # Good Bases - Normal
   Rarity Normal
-  BaseType == "Expert Barrier Quarterstaff" "Expert Slicing Quarterstaff" "Expert Gothic Quarterstaff" "Expert Zealot Bow" "Expert Dualstring Bow" "Rattling Sceptre" "Lupine Sceptre" "Ochre Sceptre" "Clasped Sceptre" "Devouring Sceptre" "Devotional Sceptre" "Wrath Sceptre" "Aromatic Sceptre" "Pious Sceptre" "Hallowed Sceptre"
+  BaseType == "Expert Barrier Quarterstaff" "Expert Slicing Quarterstaff" "Expert Gothic Quarterstaff" "Expert Zealot Bow" "Expert Dualstring Bow" "Rattling Sceptre" "Lupine Sceptre" "Ochre Sceptre" "Clasped Sceptre" "Devouring Sceptre" "Devotional Sceptre" "Wrath Sceptre" "Aromatic Sceptre" "Pious Sceptre" "Hallowed Sceptre" "Omen Sceptre"
   SetTextColor 180 180 180
   SetBorderColor 254 128 222
   SetBackgroundColor 30 30 30
@@ -1260,6 +1273,9 @@ Hide # One Handers
   Class == "Claws" "Daggers" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Spears" "Flails"
   AreaLevel >= 65
 	
+Hide
+  BaseType == "Serrated Quiver" "Toxic Quiver" "Blunt Quiver"
+		
 Hide # Advanced
     BaseType "Advanced "
 	  AreaLevel >= 65
